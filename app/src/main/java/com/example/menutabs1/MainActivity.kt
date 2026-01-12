@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                     0 -> fragment = Fragmento1()
                     1 -> fragment = Fragmento2()
                     2 -> fragment = Fragmento3()
+                    3 -> fragment = FragmentoCompose()
                 }
                 supportFragmentManager.beginTransaction().replace(R.id.content_fragment, fragment).commit()
             }
